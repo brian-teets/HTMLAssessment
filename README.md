@@ -24,6 +24,10 @@ Build a fundamental understanding of the following HTML elements:
 
 Complete the _Forms_ section of either the [Quackit][quackit] or [HtmlDog][Htmldog] tutorials (or both).
 
+Create a web page that resembles:
+
+![html assessment](images/assessment_example.png)
+<hr>
 
 ### Technologies / Skills Used
 
