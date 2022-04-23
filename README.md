@@ -35,7 +35,7 @@ Create a web page that resembles:
 
 ### Lessons Learned
 
-I already had some comfort with basic html, but I gained more practice with creating:
+Gained practice with creating basic:
   * Tables
   * Forms
 
