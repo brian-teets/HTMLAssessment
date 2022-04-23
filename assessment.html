@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--
+Name: Brian Teets
+Date Created: Friday, April 22, 2022
+Most recent revision: April 23, 2022
+ -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -28,16 +33,9 @@
         "Thank you, Weatherby, and when you have done that, I would like a cup of tea.  My wife and son will be arriving shortly,
         we are attending a concert tonight with Mr. and Mrs. Fudge."
       </p>
-      <blockquote cite="https://litipsum.com/"">
+      <blockquote cite="https://hp-ipsum.netlify.app/"">
         <!-- litipsum p adventures-sherlock-holmes -->
-        <strong><em>"Harry Potter managed to escape Lord Voldemort,"</em></strong> said Dumbledore.  "He risked his own life to return Cedric's body to Hogwarts.
-        He showed, in every respect, the sort of bravery that few wizards have ever shown in facing Lord Voldemort, and for this, I honor him."
-        Dumbledore turned gravely to Harry and raised his goblet once more.  Nearly everyone in the Great Hall followed suit.
-        They murmured his name, as they had murmured Cedric's, and drank to him.  But through a gap in the standing figures.
-        Harry saw that Malfoy, Crabbe, Goyle, and many of the other Slytherins had remained defiantly in their seats, their goblets untouched.
-        Dumbledore, who after all possessed no magical eye, did not see them. When everyone had once again resumed their seats, Dumbledore continued,
-        "The Triwizard Tournament's aim was to further and promote magical understanding.  In the light of what has happened - of
-        Lord Voldemorts return - such ties are more important than ever before."
+        <strong><em>It doesn't do to dwell on dreams and forget to live.</em></strong>
       </blockquote>
       <p>
         Once before. Harry had found himself somewhere that nobody could see or hear him. That time, he had fallen through a page in an enchanted diary,
@@ -88,19 +86,19 @@
           </tr>
           <tr>
             <td>Team Gryffindor</td>
+            <td>0</td>
             <td>10</td>
-            <td>5</td>
-            <td>5</td>
             <td>10</td>
-            <td>30</td>
+            <td>150</td>
+            <td>170</td>
           </tr>
           <tr>
             <td>Team Slytherin</td>
-            <td>0</td>
-            <td>5</td>
             <td>10</td>
             <td>10</td>
-            <td>25</td>
+            <td>10</td>
+            <td>10</td>
+            <td>40</td>
           </tr>
         </tbody>
         <tfoot>
@@ -164,11 +162,47 @@
     </div>
     <div id="form">
       <h2>FORM</h2>
+      <form action="index.html" method="post">
+        First name: <input type="text" name="firstname" value="" maxlength="75">
+        Last name: <input type="text" name="lastname" value="" maxlength="75">
+        <p>
+          <strong>What is your favorite sport?</strong>
+        </p>
+        <select>
+          <option value="quidditch">Quidditch</option>
+          <option value="broomracing">Broom Racing</option>
+          <option value="dragons">Retrieving golden egg from dragon</option>
+          <option value="lake">Outsmarting mermaids in Hogwarts Lake</option>
+          <option value="maze">Surviving a deadly maze (... poor Cedric)</option>
+        </select>
+        <p>
+          <strong>Considering your favorite sport you just selected, have you personally ever:</strong>
+        </p>
+        <input type="checkbox" name="haveyou" value="Played"> Played &#160;
+        <input type="checkbox" name="haveyou" value="Attended"> Attended &#160;
+        <input type="checkbox" name="haveyou" value="Coached"> Coached &#160;
+        <input type="checkbox" name="haveyou" value="Bet"> Bet On
+        <br>
+        <p>
+          <strong>Again, considering your favorte sport, do you prefer:</strong>
+        </p>
+        <input type="radio" name="level" value="amateur"> Amateur &#160;
+        <input type="radio" name="level" value="college"> College &#160;
+        <input type="radio" name="level" value="professional"> Professional
+        <br><br>
 
+        <input type="submit" name="submit" value="Submit">
+      </form>
 
     </div>
 
-
-
+    <footer>
+      <hr>
+      <p>
+        &#169; 2022 &#160; Brian Teets
+      </p>
+      <hr>
+    </footer>
   </body>
+
 </html>
