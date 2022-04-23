@@ -36,5 +36,5 @@ I already had some comfort with basic html, but I gained more practice with crea
   * Forms
 
 [Codecademy]: https://www.codecademy.com/learn/learn-html
-[Quackit: HTML Formatting][quackit] (Section: HTML Forms)
-[Htmldog][Htmldog] (Section: Forms)
+[quackit]:http://www.quackit.com/html/tutorial/html_formatting.cfm
+[Htmldog]: http://htmldog.com/guides/html/beginner/
