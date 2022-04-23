@@ -7,10 +7,12 @@
       body {
         max-width: 900px;
         margin: 0 auto;
-        background-color: #e4fde1ff; /* pistachio from coolors.co */ 
+        background-color: #F4F4F9;    /* Ghost White from coolors.co */
       }
-      table, td {
-        border: 1px solid black;
+      table, th, td {
+        padding: 2.5px 7px;
+      }
+      td {
         text-align: center;
       }
     </style>
@@ -41,8 +43,115 @@
       <h2>TABLE</h2>
       <!-- table headings:   https://www.codecademy.com/courses/learn-html/lessons/html-tables/exercises/table-headings -->
       <table>
-
+        <caption>Quidditch Scores</caption>
+        <thead>
+        <!--   <th rowspan="3" scope="row">Team Name</th>   -->
+          <th colspan="1"></th>
+          <th colspan="2" scope="col">First Half</th>
+          <th colspan="2" scope="col">Second Half</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><strong>Team Name</strong></td>
+            <td><strong>Q1</strong></td>
+            <td><strong>Q2</strong></td>
+            <td><strong>Q3</strong></td>
+            <td><strong>Q4</strong></td>
+            <td rowspan="2"><strong>Final</strong></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Team Gryffindor</td>
+            <td>10</td>
+            <td>5</td>
+            <td>5</td>
+            <td>10</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Team Slytherin</td>
+            <td>0</td>
+            <td>5</td>
+            <td>10</td>
+            <td>10</td>
+            <td>25</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>10</strong></td>
+            <td><strong>10</strong></td>
+            <td><strong>15</strong></td>
+            <td><strong>20</strong></td>
+            <td><strong>55</strong></td>
+          </tr>
+        </tfoot>
       </table>
+    </div>
+    <div id="list">
+      <h2>LIST</h2>
+      <!-- Create a section header with the title of "LIST".
+      Create a list that organizes the teams by team name, position, and player.
+      Use the default bullets that are provided with an HTML list item. -->
+      <ul>
+        <li style="list-style-type:none;">
+          <!-- image is a clickable hyperlink -->
+          <a href="https://harrypotter.fandom.com/wiki/Gryffindor_Quidditch_team" target="_blank">
+          <img src="./images/GryffindorQuidditchBadge.jpg" alt="Gryffindor Quidditch badge" height="97px">
+        </a>
+        </li>
+        <ul>
+            <li>Notable Captains:</li>
+            <ol>
+              <li>Charlie Weasley</li>
+              <li>Oliver Wood</li>
+              <li>Angelina Johnson</li>
+            </ol>
+            <li>Notable Seekers:</li>
+            <ol>
+              <li>Harry Potter</li>
+              <li>Ginny Weasley</li>
+            </ol>
+        </ul>
+      </ul>
+      <ul>
+        <li style="list-style-type:none;">
+          <!-- image is a clickable hyperlink -->
+          <a href="https://harrypotter.fandom.com/wiki/Slytherin_Quidditch_team" target="_blank">
+          <img src="./images/SlytherinQuidditchBadge.jpg" alt="Slytherin Quidditch badge" height="97px">
+        </a>
+        </li>
+        <ul>
+            <li>Notable Captains:</li>
+            <ol>
+              <li>Emma Vanity</li>
+              <li>Marcus Flint</li>
+            </ol>
+            <li>Notable Seeker:</li>
+            <ol>
+              <li>Regulus Black</li>
+              <li>Draco Malfoy</li>
+            </ol>
+        </ul>
+      </ul>
+
+
     </div>
 
 
