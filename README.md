@@ -22,6 +22,8 @@ Build a fundamental understanding of the following HTML elements:
   * *Tables*: table, tr, th, td, colspan, rowspan.
   * *Forms*: form, input types, radio, checkbox, select/options, submit.
 
+Complete the _Forms_ section of either the [Quackit][quackit] or [HtmlDog][Htmldog] tutorials (or both).
+
 
 ### Technologies / Skills Used
 
@@ -34,3 +36,5 @@ I already had some comfort with basic html, but I gained more practice with crea
   * Forms
 
 [Codecademy]: https://www.codecademy.com/learn/learn-html
+[Quackit: HTML Formatting][quackit] (Section: HTML Forms)
+[Htmldog][Htmldog] (Section: Forms)
