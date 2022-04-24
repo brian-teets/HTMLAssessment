@@ -24,13 +24,13 @@ without needing to Google the basic syntax and tag names.
 
 * Complete the _Forms_ section of either the [Quackit][quackit] or [HtmlDog][Htmldog] tutorials (or both).
 
-* Create a web page that resembles: [this example](images/assessment_example.png).
+* `Create a web page that resembles:` [this example](images/assessment_example.png).
 <hr>
 
 ### Work Product / Deliverables
 
 * Here is a [screenshot of my html page](images/BrianHTMLpage.png) (most recent revision: Apr. 24, 2022).
-  * I included div tags to create generic containers for each section
+  * I included `div` tags to create generic containers for each section
     * Inside each div, I created header tags to differentiate sections
     * Text section includes 2 regular paragraph blocks and one blockquote
     * I created the table to resemble the provided example
@@ -38,13 +38,13 @@ without needing to Google the basic syntax and tag names.
       * Unordered list items
       * Nested ordered list items
       * Unordered list item with bullet style removed
-      * Logo image with embedded anchor tag - uses `target="_blank"` to open external link in new tab
+      * Logo images with embedded anchor tag - uses `target="_blank"` to open external link in new tab
     * My form section includes:
       * Text input
       * Select / dropdown options
       * Checkbox input items - included 2 items defaulted to `checked`
       * Radio input items
-      * Submit button 
+      * Submit button
 <hr>
 
 ### Technologies / Skills Used
