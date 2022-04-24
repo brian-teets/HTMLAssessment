@@ -26,7 +26,7 @@ Complete the _Forms_ section of either the [Quackit][quackit] or [HtmlDog][Htmld
 
 Create a web page that resembles:
 
-![HTMLAssessment/images](assessment_example.png)
+[this example](images/assessment_example.png)
 <hr>
 
 ### Technologies / Skills Used
