@@ -9,12 +9,12 @@ without needing to Google the basic syntax and tag names.
 
 ### Learning Objectives
 
-Complete Self-Study units from CodeCademy _[Learn HTML][Codecademy]_ course:
+* Complete Self-Study units from CodeCademy _[Learn HTML][Codecademy]_ course:
   * _HTML Elements and Structure: Introduction to HTML_
   * _HTML Elements and Structure: HTML Document Standards_
   * _HTML Tables: Tables_  
 
-Build a fundamental understanding of the following HTML elements:
+* Build a fundamental understanding of the following HTML elements:
   * Basic HTML document structure
   * *Structural tags*: h1-h6, p, hr, blockquote, ul, ol, li, properly-nested lists.
   * *Links*: a, href.
@@ -22,9 +22,9 @@ Build a fundamental understanding of the following HTML elements:
   * *Tables*: table, tr, th, td, colspan, rowspan.
   * *Forms*: form, input types, radio, checkbox, select/options, submit.
 
-Complete the _Forms_ section of either the [Quackit][quackit] or [HtmlDog][Htmldog] tutorials (or both).
+* Complete the _Forms_ section of either the [Quackit][quackit] or [HtmlDog][Htmldog] tutorials (or both).
 
-Create a web page that resembles: [this example](images/assessment_example.png).
+* Create a web page that resembles: [this example](images/assessment_example.png).
 <hr>
 
 ### Work Product / Deliverables
