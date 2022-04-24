@@ -43,8 +43,8 @@ without needing to Google the basic syntax and tag names.
       * Text input
       * Select / dropdown options
       * Checkbox input items - included 2 items defaulted to `checked`
-      * Radio input items
-      * Submit button
+      * Radio input items - defaulted 1 radio to `checked`
+      * `Submit` button
 <hr>
 
 ### Technologies / Skills Used
