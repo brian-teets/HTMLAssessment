@@ -29,7 +29,7 @@ Create a web page that resembles: [this example](images/assessment_example.png).
 
 ### Work Product / Deliverables
 
-* Here is a [screenshot of my html page](images/Brian-HTML-assessment.jpg). 
+* Here is a [screenshot of my html page](images/Brian-HTML-assessment.png). 
 
 ### Technologies / Skills Used
 
