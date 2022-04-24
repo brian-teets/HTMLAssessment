@@ -30,6 +30,21 @@ without needing to Google the basic syntax and tag names.
 ### Work Product / Deliverables
 
 * Here is a [screenshot of my html page](images/BrianHTMLpage.png) (most recent revision: Apr. 24, 2022).
+  * I included div tags to create generic containers for each section
+    * Inside each div, I created header tags to differentiate sections
+    * Text section includes 2 regular paragraph blocks and one blockquote
+    * I created the table to resemble the provided example
+    * My list section includes:
+      * Unordered list items
+      * Nested ordered list items
+      * Unordered list item with bullet style removed
+      * Logo image with embedded anchor tag - uses `target="_blank"` to open external link in new tab
+    * My form section includes:
+      * Text input
+      * Select / dropdown options
+      * Checkbox input items - included 2 items defaulted to `checked`
+      * Radio input items
+      * Submit button 
 <hr>
 
 ### Technologies / Skills Used
