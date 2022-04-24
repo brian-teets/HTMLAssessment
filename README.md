@@ -33,7 +33,7 @@ without needing to Google the basic syntax and tag names.
   * I included `div` tags to create generic containers for each section
     * Inside each div, I created header tags to differentiate sections
     * Text section includes 2 regular paragraph blocks and one blockquote
-    * I created the table to resemble the provided example
+    * I created the table to resemble the provided SD [example](images/assessment_example.png)
     * My list section includes:
       * Unordered list items
       * Nested ordered list items
