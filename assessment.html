@@ -97,18 +97,18 @@ Most recent revision: April 23, 2022
             <td>10</td>
             <td>10</td>
             <td>10</td>
-            <td>10</td>
-            <td>40</td>
+            <td>0</td>
+            <td>30</td>
           </tr>
         </tbody>
         <tfoot>
           <tr>
             <td><strong>Total</strong></td>
             <td><strong>10</strong></td>
-            <td><strong>10</strong></td>
-            <td><strong>15</strong></td>
             <td><strong>20</strong></td>
-            <td><strong>55</strong></td>
+            <td><strong>20</strong></td>
+            <td><strong>150</strong></td>
+            <td><strong>200</strong></td>
           </tr>
         </tfoot>
       </table>
@@ -163,34 +163,35 @@ Most recent revision: April 23, 2022
     <div id="form">
       <h2>FORM</h2>
       <form action="index.html" method="post">
-        First name: <input type="text" name="firstname" value="" maxlength="75">
-        Last name: <input type="text" name="lastname" value="" maxlength="75">
-        <p>
-          <strong>What is your favorite sport?</strong>
-        </p>
-        <select>
-          <option value="quidditch">Quidditch</option>
-          <option value="broomracing">Broom Racing</option>
-          <option value="dragons">Retrieving golden egg from dragon</option>
-          <option value="lake">Outsmarting mermaids in Hogwarts Lake</option>
-          <option value="maze">Surviving a deadly maze (... poor Cedric)</option>
-        </select>
-        <p>
-          <strong>Considering your favorite sport you just selected, have you personally ever:</strong>
-        </p>
-        <input type="checkbox" name="haveyou" value="Played"> Played &#160;
-        <input type="checkbox" name="haveyou" value="Attended"> Attended &#160;
-        <input type="checkbox" name="haveyou" value="Coached"> Coached &#160;
-        <input type="checkbox" name="haveyou" value="Bet"> Bet On
+        <div id="firstandlast">
+          <strong>First name: </strong><input type="text" name="firstname" value="" maxlength="75">
+          <strong>Last name: </strong><input type="text" name="lastname" value="" maxlength="75">
+        </div>
+        <div id="dropdown">
+          <label for="favorite"><strong>Favorite sport:</strong> </label>
+          <select name="favorite">
+            <option value="quidditch">Quidditch</option>
+            <option value="broomracing">Broom Racing</option>
+            <option value="dragons">Retrieving golden egg from dragon</option>
+            <option value="lake">Outsmarting mermaids in Hogwarts Lake</option>
+            <option value="maze">Surviving a deadly maze (... poor Cedric)</option>
+          </select>
+        </div>
+        <div id="checkbox">
+          <label for="haveyou"><strong>I have: </strong></label>
+          <input type="checkbox" name="haveyou" value="Played"> Played &#160;
+          <input type="checkbox" name="haveyou" value="Attended" checked> Attended &#160;
+          <input type="checkbox" name="haveyou" value="Coached"> Coached &#160;
+          <input type="checkbox" name="haveyou" value="Bet" checked> Bet On
+          <br>
+        </div>
+        <div id="radio">
+          <label for="level"><strong>I prefer: </strong></label>
+          <input type="radio" name="level" value="amateur" checked> Amateur &#160;
+          <input type="radio" name="level" value="college"> College &#160;
+          <input type="radio" name="level" value="professional"> Professional
+        </div>
         <br>
-        <p>
-          <strong>Again, considering your favorte sport, do you prefer:</strong>
-        </p>
-        <input type="radio" name="level" value="amateur"> Amateur &#160;
-        <input type="radio" name="level" value="college"> College &#160;
-        <input type="radio" name="level" value="professional"> Professional
-        <br><br>
-
         <input type="submit" name="submit" value="Submit">
       </form>
 

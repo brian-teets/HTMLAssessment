@@ -24,10 +24,12 @@ Build a fundamental understanding of the following HTML elements:
 
 Complete the _Forms_ section of either the [Quackit][quackit] or [HtmlDog][Htmldog] tutorials (or both).
 
-Create a web page that resembles:
-
-[this example](images/assessment_example.png)
+Create a web page that resembles: [this example](images/assessment_example.png).
 <hr>
+
+### Work Product / Deliverables
+
+* Here is a [screenshot of my html page](images/Brian-HTML-assessment.jpg). 
 
 ### Technologies / Skills Used
 
