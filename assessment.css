@@ -1,0 +1,110 @@
+/*
+User Story #1
+Your headers should be changed to your favorite color and set to a sans-serif font. (Notice they are not all the same tag!)
+ */
+h2, h3, h4, h5 {
+  color: green;
+  font-family: sans-serif;
+}
+
+/*
+User Story #2
+Your table should have bold/colored table headers, as well as a table border. Content should be centered in their respective blocks.
+ */
+ #scoreBoard {
+   text-align: center;
+   border: 1px solid;
+   border-radius: 5px;
+ }
+ #scoreBoard thead {
+   color: orangered;
+   font-weight: bold;
+ }
+/*
+User Story #3
+Your list should have square list bullets.
+ */
+ul {
+  list-style-type: square;
+}
+
+/*
+User Story #4
+When the user hovers over a hyperlink the background color of the hyperlink should change and it should not be underlined.
+ */
+ a:hover {
+   color: orangered;
+   text-decoration: none;
+ }
+
+ /*
+User Story #5
+Set the background color of the block quote text (second paragraph) to a dark color and the font color to a contrasting light color.
+*/
+blockquote {
+  background-color: slategray;
+  color: whitesmoke;
+  max-width: 500px;
+}
+
+/*
+User Story #6
+Make each team's image the background image for the list.
+Hint Check out the element > element and :first-child / :last-child selectors.
+
+Remove the image from above the team's list.
+ */
+#teamRoster > :first-of-type ul {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;  /* experimented and came up with this to scale the background image  */
+  max-width: 900px;
+}
+#teamRoster > :first-of-type img {
+  visibility: hidden;
+}
+#teamRoster > li {
+  list-style-type: none;
+}
+#teamRoster > :last-of-type ul {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  max-width: 900px;
+}
+#teamRoster > :last-of-type img {
+  visibility: hidden;
+
+}
+
+/*
+User Story 7
+The checkbox list should not be bulleted.
+*/
+#checkbox-grid {
+  list-style-type: none;
+}
+
+/*
+Stretch Goals ...
+ */
+
+/* Use CSS to give the table rows alternating background colors. */
+tr:nth-child(odd) {
+  background-color: ivory;
+}
+tr:nth-child(even) {
+  background-color: wheat;
+}
+
+body {
+  min-width: 250px;
+  max-width: 900px;
+  padding: 0px 0px 30px;   /* top, right/left, bottom */
+  margin: 0 auto;  /* 0 vertical margin, automatically center align horizontally */
+}
+
+ol + li {
+  font-weight: bold;
+}
